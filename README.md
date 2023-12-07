@@ -1,1 +1,4 @@
 # Electricity-Load-Prediction
+
+The hybrid forecasting model verifies the relevance of each variable in the dataset to the electricity load series through the grey correlation analysis, then uses the extreme random tree to select the attributes, takes the selected important features combined with the historical load series as the input of the BiLSTM model, optimizes it by using the PSO algorithm, and compares it with five combined forecasting models to verify the feasibility of the model. Applying this method to the Australian load dataset, the mean square error, mean absolute error, determination coefficient and mean absolute percentage error are 410.97, 291.68, 0.91 and 0.033 respectively, which are superior to the other five combined forecasting models and have certain application value.
+
